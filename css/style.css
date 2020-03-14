@@ -103,7 +103,6 @@ span {
 
 }
 
-
 a{
     font-size: 13px;
     letter-spacing: 2px;
@@ -118,7 +117,6 @@ a:hover,a:focus{
     outline: none
 
 }
-
 
 ul,ol{
     margin: 0;
@@ -262,6 +260,22 @@ ul,ol{
        start header
 *********************************************************************/
 
+.topbar {
+    padding: 12px 0px 2px 0px;
+    text-align: center;
+    background: #e0ca3c;
+    text-decoration: underline;
+}
+
+.topbar h3 {
+    color: #2d3047;
+    font-size: 20px;
+}
+
+.topbar a:hover h3{
+    text-decoration: underline;
+    color: #ea3546;
+}
 
 #top-header{
     background-color: #fff;
